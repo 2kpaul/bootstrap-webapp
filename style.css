@@ -1,0 +1,7 @@
+.card-body .tags span {
+    margin-right: 1rem;
+}
+
+.card-body .actions .small span:first-child {
+    margin-right: 1rem;
+}
