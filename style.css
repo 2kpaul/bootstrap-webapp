@@ -1,3 +1,40 @@
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    .container-fluid {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .container-fluid {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .container-fluid {
+        padding-left: 10rem;
+        padding-right: 10rem;
+    }
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .container-fluid {
+        padding-left: 15rem;
+        padding-right: 15rem;
+    }
+ }
+
+.social-links a{
+    color: black;
+    padding-right: 0.5rem;
+}
+
 .card-body .tags span {
     margin-right: 1rem;
 }
