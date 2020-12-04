@@ -42,3 +42,15 @@
 .card-body .actions .small span:first-child {
     margin-right: 1rem;
 }
+
+.sidebar-right ul.news {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar-right ul.news li {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-top: 1px solid lightgray;
+}
